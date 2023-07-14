@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.shoes-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.shoes-gallery-item {
+  width: 33.33%;
+}
+
+.content {
+  display: flex;
+}
+
+aside {
+  width: 300px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  gap: 4px;
+}
